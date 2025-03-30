@@ -1,0 +1,16 @@
+# 🛠 Как собрать установщик .exe
+
+1. Установи Inno Setup: https://jrsoftware.org/isdl.php
+2. Помести в папку:
+   - AdminToolkit.exe
+   - AdminToolkit.ico
+   - AdminToolkitInstaller.iss
+
+3. Открой `AdminToolkitInstaller.iss` в Inno Setup Compiler
+4. Нажми Build (F9)
+5. Получишь: AdminToolkit_Setup.exe
+
+✅ Установщик создаёт:
+- Папку в Program Files
+- Ярлык в меню Пуск
+- (опционально) Ярлык на рабочем столе
